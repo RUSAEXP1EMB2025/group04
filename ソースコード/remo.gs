@@ -2,6 +2,7 @@
    const headers = {
     'Authorization': 'Bearer ' + REMO_ACCESS_TOKEN,
   };
+ const applianceId = '690fb3bd-df02-468c-ad7d-a434fa3b8be5';
 function getNatureRemoData(endpoint) {
 
 
