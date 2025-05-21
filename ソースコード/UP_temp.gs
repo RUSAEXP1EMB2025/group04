@@ -8,9 +8,7 @@ function up_temp(x) {
 
   const options = {
     method: 'post',
-    headers: {
-      Authorization: token,
-    },
+    headers:headers,
     payload: payload,
    muteHttpExceptions: true
   };
